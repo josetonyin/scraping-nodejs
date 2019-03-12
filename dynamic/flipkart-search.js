@@ -8,8 +8,8 @@ nightmare
   .wait('body')
   .click('button._2AkmmA._29YdH8')
   .type('input.LM6RPg', 'nodejs books')
-  .click('button.vh79eN')
-  .wait('div.bhgxx2')
+  .click('button.vh79eN').wait('div.bhgxx2')
+
   .evaluate(() => document.querySelector('body').innerHTML)
   .end()
   .then(response => {
