@@ -13,6 +13,9 @@
     "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "nightmare": "^3.0.1",
-    "nightmare-iframe": "^1.0.2"
+    "nightmare-download-manager": "^0.2.5",
+    "nightmare-iframe": "^1.0.2",
+    "nightmare-iframe-manager": "0.0.4",
+    "nightmare-inline-download": "^0.2.2"
   }
 }
